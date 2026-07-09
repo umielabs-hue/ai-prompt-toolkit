@@ -1,0 +1,101 @@
+{
+  "code_review": {
+    "title": "Senior Code Review",
+    "description": "Deep code review by a senior engineer",
+    "variables": [
+      "language",
+      "code"
+    ],
+    "template": "You are a senior {language} engineer with 15+ years of experience.\nReview the following code for:\n1. Security vulnerabilities\n2. Performance issues\n3. Code smell and anti-patterns\n4. Missing error handling\n5. Test coverage gaps\n\nCode:\n{code}\n\nProvide specific, actionable feedback with code examples."
+  },
+  "debug_assistant": {
+    "title": "Debug Assistant",
+    "description": "Systematic debugging helper",
+    "variables": [
+      "error",
+      "code",
+      "context"
+    ],
+    "template": "You are an expert debugger. I have this error:\n\nError: {error}\n\nCode:\n{code}\n\nContext: {context}\n\nProvide: 1) Root cause 2) Step-by-step fix 3) Prevention strategy."
+  },
+  "architecture_review": {
+    "title": "System Architecture Review",
+    "description": "Architecture design and tradeoff analysis",
+    "variables": [
+      "system_description",
+      "requirements",
+      "constraints"
+    ],
+    "template": "You are a principal software architect. Review:\n\nSystem: {system_description}\nRequirements: {requirements}\nConstraints: {constraints}\n\nAnalyze: scalability, reliability, security, maintainability. Propose improvements with tradeoffs."
+  },
+  "test_generator": {
+    "title": "Test Case Generator",
+    "description": "Generate comprehensive test cases",
+    "variables": [
+      "function_code",
+      "language",
+      "framework"
+    ],
+    "template": "Generate comprehensive {framework} tests for this {language} function:\n\n{function_code}\n\nInclude: happy path, edge cases, error cases, boundary conditions."
+  },
+  "api_design": {
+    "title": "REST API Designer",
+    "description": "Design RESTful API endpoints",
+    "variables": [
+      "resource",
+      "operations",
+      "constraints"
+    ],
+    "template": "Design a RESTful API for {resource} supporting {operations}.\nConstraints: {constraints}\n\nProvide: endpoints, request/response schemas, status codes, auth approach, rate limiting, versioning plan."
+  },
+  "sql_optimizer": {
+    "title": "SQL Query Optimizer",
+    "description": "Optimize slow SQL queries",
+    "variables": [
+      "query",
+      "schema",
+      "performance_issue"
+    ],
+    "template": "Optimize this SQL:\n\n{query}\n\nSchema: {schema}\nIssue: {performance_issue}\n\nProvide: optimized query, index recommendations, explain plan analysis."
+  },
+  "security_audit": {
+    "title": "Security Audit",
+    "description": "Security vulnerability assessment",
+    "variables": [
+      "code",
+      "language",
+      "type"
+    ],
+    "template": "Perform a security audit on this {language} {type}:\n\n{code}\n\nCheck OWASP Top 10, injection, auth flaws, data exposure. Rate each finding: Critical/High/Medium/Low."
+  },
+  "docker_setup": {
+    "title": "Docker Config Generator",
+    "description": "Generate production Docker configs",
+    "variables": [
+      "app_type",
+      "language",
+      "dependencies"
+    ],
+    "template": "Generate a production Docker setup for a {language} {app_type} with: {dependencies}.\n\nProvide: Dockerfile (multi-stage), docker-compose.yml, .dockerignore, deployment notes."
+  },
+  "refactor_guide": {
+    "title": "Code Refactoring Guide",
+    "description": "How to refactor code for quality",
+    "variables": [
+      "language",
+      "code",
+      "goal"
+    ],
+    "template": "Refactor this {language} code to achieve: {goal}\n\nOriginal:\n{code}\n\nProvide refactored version with explanation of each change."
+  },
+  "performance_profiler": {
+    "title": "Performance Analysis",
+    "description": "Find and fix performance bottlenecks",
+    "variables": [
+      "code",
+      "language",
+      "metrics"
+    ],
+    "template": "Profile this {language} code:\n\n{code}\n\nCurrent metrics: {metrics}\n\nIdentify bottlenecks, provide optimized version, Big-O analysis, memory improvements."
+  }
+}
