@@ -1,0 +1,46 @@
+{
+  "competitor_analysis": {
+    "title": "Competitor Deep Dive",
+    "variables": [
+      "company",
+      "industry",
+      "our_company"
+    ],
+    "template": "Analyze {company} in {industry}. Cover: value proposition, customer segments, pricing, strengths, weaknesses, and what {our_company} can exploit. Be specific."
+  },
+  "pricing_strategy": {
+    "title": "Pricing Strategy Designer",
+    "variables": [
+      "product",
+      "target_market",
+      "cost_structure"
+    ],
+    "template": "Design pricing strategy for {product} targeting {target_market}. Cost structure: {cost_structure}.\n\nProvide: 3 pricing tiers with rationale, psychological pricing tactics, freemium analysis."
+  },
+  "market_sizing": {
+    "title": "TAM/SAM/SOM Calculator",
+    "variables": [
+      "product_idea",
+      "geography",
+      "assumptions"
+    ],
+    "template": "Calculate market size for {product_idea} in {geography}. Assumptions: {assumptions}.\n\nUse top-down and bottom-up approaches. Provide TAM, SAM, SOM with methodology."
+  },
+  "fundraising_pitch": {
+    "title": "Investor Pitch Optimizer",
+    "variables": [
+      "startup_description",
+      "traction",
+      "ask"
+    ],
+    "template": "You are a VC partner who reviewed 1000+ pitches. Critique:\n\nStartup: {startup_description}\nTraction: {traction}\nAsk: {ask}\n\nImprove narrative, add missing data, handle objections."
+  },
+  "bmc": {
+    "title": "Business Model Canvas",
+    "variables": [
+      "idea",
+      "target_customer"
+    ],
+    "template": "Build Business Model Canvas for: {idea} targeting {target_customer}.\n\nFill all 9 blocks: Customer Segments, Value Propositions, Channels, Customer Relationships, Revenue Streams, Key Resources, Key Activities, Key Partnerships, Cost Structure."
+  }
+}
