@@ -1,0 +1,48 @@
+{
+  "seo_brief": {
+    "title": "SEO Content Brief",
+    "variables": [
+      "keyword",
+      "target_audience",
+      "competitors"
+    ],
+    "template": "SEO content brief for '{keyword}'. Target: {target_audience}. Competing: {competitors}.\n\nInclude: word count, H1-H3 structure, semantic keywords, meta title/description, content angle to beat competitors."
+  },
+  "ad_copy": {
+    "title": "High-Converting Ad Copy",
+    "variables": [
+      "product",
+      "audience",
+      "platform",
+      "goal"
+    ],
+    "template": "Write 5 {platform} ads for {product} targeting {audience}. Goal: {goal}.\n\nEach: headline, body, CTA, psychological trigger. Include A/B test hypothesis."
+  },
+  "email_sequence": {
+    "title": "Email Nurture Sequence",
+    "variables": [
+      "product",
+      "audience",
+      "num_emails"
+    ],
+    "template": "Write {num_emails}-email nurture for {product} targeting {audience}.\n\nEach email: subject line, preview text, body, CTA, send timing. Arc: awareness to decision."
+  },
+  "landing_page": {
+    "title": "Landing Page Copy",
+    "variables": [
+      "product",
+      "icp",
+      "main_benefit"
+    ],
+    "template": "Write landing page copy for {product} targeting {icp}. Main benefit: {main_benefit}.\n\nSections: hero headline, 3 value props, social proof, features, FAQ, 3 CTA variations."
+  },
+  "viral_hook": {
+    "title": "Viral Hook Generator",
+    "variables": [
+      "topic",
+      "platform",
+      "audience"
+    ],
+    "template": "Generate 10 viral opening hooks for {platform} about {topic} for {audience}.\n\nFormats: controversial opinion, surprising statistic, story opener, counterintuitive insight, pattern interrupt."
+  }
+}
